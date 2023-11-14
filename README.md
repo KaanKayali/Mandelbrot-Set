@@ -23,7 +23,7 @@ using the current **z** as the input.
 
 4. Replace zz with the result of the iteration.
 
-5. Repeat steps 3 and 4 for **a** predetermined number of iterations or until **∣z∣** (the magnitude of **z**) becomes larger than **a** certain threshold.
+5. Repeat steps 3 and 4 for a predetermined number of iterations or until **∣z∣** (the magnitude of **z**) becomes larger than a certain threshold.
 
 6. If **∣z∣** remains bounded (i.e., it doesn't become infinitely large) after the specified number of iterations, then the point **c** is considered to be part of the Mandelbrot set. If **∣z∣** becomes larger than the threshold, the point is not part of the set.
 
