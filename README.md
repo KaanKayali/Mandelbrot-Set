@@ -4,10 +4,10 @@ The Mandelbrot-Set visualised in a YYC file using imaginary numbers.
 ## Explanation
 The Mandelbrot set is a fascinating mathematical concept and a visual representation of complex numbers. The Mandelbrot set is defined in the context of complex numbers, which are numbers of the form:
 <img src=”/AplusBImage.jpg” alt=”a+b” />
-where a and b are real numbers, and i is the imaginary unit:
+where **a** and **b** are real numbers, and **i** is the imaginary unit:
 <img src=”/ImaginarynumberImage.jpg” alt=”i=sqrt(-1)” />
 
-The Mandelbrot set is created by iterating a specific mathematical operation on complex numbers. The iteration involves repeatedly applying the function f(z)=z2+cf(z)=z2+c, where zz is the current complex number, and cc is a constant complex number. The process is carried out over and over, and the outcome of each iteration becomes the input for the next one.
+The Mandelbrot set is created by iterating a specific mathematical operation on complex numbers. The iteration involves repeatedly applying the function f(z)=z2+cf(z)=z2+c, where **z** is the current complex number, and cc is a constant complex number. The process is carried out over and over, and the outcome of each iteration becomes the input for the next one.
 
 Here's how the process works:
 
