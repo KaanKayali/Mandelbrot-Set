@@ -37,3 +37,10 @@ When you visualize the points in the complex plane that belong to the Mandelbrot
 The Set runs on the GPU in realtime, so there is a limited precision. 
 The loading time of the fractal depends on your pcs performance.
 
+## How the code works
+Every pixel on the display has a coordinate on the imaginary coordinate system and goes through those calculations above. The value **n** counts how many times the pixel gets measured and checked. A value that isnt in the mandelbrot set explodes in the loop to a bigger value than 16. The count **n** decides which color the pixel has. The **n** of a pixel in the set contains infinity. It switches in the calculation back and forth between the same values. The pixel that is in the set gets colored completly black.
+<img src=”/ColorblackImage.jpg” alt=”i=sqrt(-1)” />
+
+Checking a loop to infinity is impossible in general and so in code. It needs a maximum value of iterations set. The higher the maxiterations is the precisier the pixel is.
+Thats another reason why the level of detail is limited.
+
